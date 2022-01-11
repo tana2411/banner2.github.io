@@ -1,0 +1,307 @@
+*{margin:0;
+padding: 0;
+font-family: 'Open Sans Condensed', sans-serif;}
+.page1{
+background-image: url(./banner-image/airpodslistenwatchhero22.jpg);
+height: 100vh;
+background-position: center;
+
+}
+.page1_item{top: 40vh;
+    display: flex;
+    left: 15%;
+    max-width: 600px;
+    position: relative;
+    p{font-size: 29px;
+        color: white;}
+h1{color: white;
+font-size: 110px;
+.page1--h1{
+background-color: #bebe15;
+
+}
+
+   }
+}
+
+
+.page2{background-color: #343138;
+height: 40vh;
+position: relative;}
+.page2_item{display: flex;
+max-width: 735px;
+flex-direction: column;
+position: absolute;
+top: 10%;
+right: 0;
+padding-right: 5%;
+h1{color: white;
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+p{color: grey;
+font-size: 25px;
+
+text-align: end;}
+a{text-decoration: none;
+color: rgb(187, 187, 187);
+
+}
+
+}
+
+
+
+.page3{background-image: url(./banner-image/57d41f4d077dcc3d018b4d7575056311.jpg);
+height: 75vh;
+background-size: cover;
+
+
+}
+.page3_item{display: flex;
+    max-width: 500px;
+    position: relative;
+    top: 20rem;
+    padding-left: 10%;
+    left: 5%;
+    h1{font-size: 70px;
+    color: white;}
+}
+.page4 {margin-top: 10vh;}
+.page4_items{padding: 0 15px;
+    img{width: 250px;}
+display: flex;
+justify-content: center;
+
+
+
+.item1{width: 380px;
+display: flex;
+justify-content:space-around;
+flex-direction: column;
+align-items: center;
+
+p{font-size: 20px;
+    padding: 40px;
+    border: 1px solid black;
+    background-color: #343138;
+    color: white;}
+
+}
+
+.item2{width: 380px;
+    display: flex;
+justify-content:space-around;
+flex-direction: column;
+align-items: center;
+a{text-decoration: none;
+    border: 3px solid black;
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+    padding: 0px 15px;
+
+}
+p{font-size: 30px;
+margin: 25px 0;}
+a:hover{background-color: black;
+    color: white;
+}
+
+
+
+}
+
+
+
+.item3{width: 380px;
+    display: flex;
+justify-content:space-around;
+flex-direction: column;
+align-items: center;
+p{font-size: 20px;
+    padding: 40px;
+    border: 1px solid black;
+    background-color: #facd3d;
+    color: white;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+.page5{position: relative;
+    margin-top: 15vh;
+background-image:url(./banner-image/airpodsinearmikah.jpg);
+height: 90vh;
+
+
+
+
+
+
+
+
+}
+.page5_item{max-width: 600px;
+display: flex;
+position: absolute;
+    top: 50%;
+    right: 0%;
+
+h1{color: white;
+font-size: 70px;
+}
+
+
+
+}
+
+
+
+
+
+.page6{margin-top: 5rem;}
+.page6_items{display: flex;
+    justify-content: center;
+
+
+
+.page6--item1{padding-right: 15px;
+max-width: 560px;
+.item1--text
+{border: 1px solid #343138;
+    background-color: #343138;
+    color: white;
+    line-height :50px;
+    padding: 30px 50px;
+h2{font: 30px;}
+ul{font-size: 20px;
+padding-bottom: 40px;}
+a{text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border: 1px solid;
+    padding: 6px 35px;
+    font-weight: bold;
+
+
+}
+
+a:hover{background-color: white;
+    color: black;
+}
+}
+
+}
+.page6--item2{
+max-width: 560px;
+display: flex;
+flex-direction: column;
+
+.item2--img1{
+
+width: 560px;
+
+}
+
+.item2--flex{padding-top: 15px;
+display: flex;
+align-items: center;
+
+.flex--p{padding-right: 15px;
+p{font-size: 20px;}
+
+
+}
+.item2--img2{width: 250px;}
+
+
+
+}
+
+
+
+
+
+}
+
+
+
+}
+
+.footer{background-color: #facd3d;
+    margin-top: 15vh;
+height: 40vh;
+display: flex;
+position: relative;}
+.footer_item{max-width: 700px;
+    display: block;
+position: absolute;
+top: 10%;
+left: 10%;
+h2{font-size: 50px;
+}
+p{font-size: 20px;
+padding-top: 15px;}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .page1_item{top :20vh;
+    width: 360px;}
+    .page2 {height: 55vh;}
+    .page2_item{padding-left: 5%;}
+    .page3_item{    left: 0;
+        padding-right: 5%;
+    }
+    .page4_items{flex-direction: column;
+    align-items: center;}
+    .page5_item{padding: 0 30px;
+    padding-right: 14%;
+        width: 230px;
+    text-align: end;
+    h1{font-size: 50px;}
+}
+.page6_items{flex-direction: column;
+    align-items: center;
+    padding: 20px}
+.item2--flex{flex-direction: column;}
+.item2--img1{width: 428px !important; }
+.page6--item1{padding-bottom: 15px;}
+.flex--p{padding: 50px;}
+.item2--img2{width: 428px !important;}
+.footer{height: 60vh;}
+.footer_item{padding: 0 50px;
+  
+}
+.earpod{padding-top: 40px;}
+}

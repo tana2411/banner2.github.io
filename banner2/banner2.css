@@ -1,0 +1,386 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.page1 {
+  background-image: url(./banner-image/airpodslistenwatchhero22.jpg);
+  height: 100vh;
+  background-position: center;
+}
+
+.page1_item {
+  top: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 15%;
+  max-width: 600px;
+  position: relative;
+}
+.page1_item p {
+  font-size: 29px;
+  color: white;
+}
+.page1_item h1 {
+  color: white;
+  font-size: 110px;
+}
+.page1_item h1 .page1--h1 {
+  background-color: #bebe15;
+}
+
+.page2 {
+  background-color: #343138;
+  height: 40vh;
+  position: relative;
+}
+
+.page2_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 735px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  top: 10%;
+  right: 0;
+  padding-right: 5%;
+}
+.page2_item h1 {
+  color: white;
+  font-size: 50px;
+  padding-bottom: 15px;
+}
+.page2_item p {
+  color: grey;
+  font-size: 25px;
+  text-align: end;
+}
+.page2_item a {
+  text-decoration: none;
+  color: #bbbbbb;
+}
+
+.page3 {
+  background-image: url(./banner-image/57d41f4d077dcc3d018b4d7575056311.jpg);
+  height: 75vh;
+  background-size: cover;
+}
+
+.page3_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 500px;
+  position: relative;
+  top: 20rem;
+  padding-left: 10%;
+  left: 5%;
+}
+.page3_item h1 {
+  font-size: 70px;
+  color: white;
+}
+
+.page4 {
+  margin-top: 10vh;
+}
+
+.page4_items {
+  padding: 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.page4_items img {
+  width: 250px;
+}
+.page4_items .item1 {
+  width: 380px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.page4_items .item1 p {
+  font-size: 20px;
+  padding: 40px;
+  border: 1px solid black;
+  background-color: #343138;
+  color: white;
+}
+.page4_items .item2 {
+  width: 380px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.page4_items .item2 a {
+  text-decoration: none;
+  border: 3px solid black;
+  font-size: 30px;
+  font-weight: bolder;
+  color: black;
+  padding: 0px 15px;
+}
+.page4_items .item2 p {
+  font-size: 30px;
+  margin: 25px 0;
+}
+.page4_items .item2 a:hover {
+  background-color: black;
+  color: white;
+}
+.page4_items .item3 {
+  width: 380px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.page4_items .item3 p {
+  font-size: 20px;
+  padding: 40px;
+  border: 1px solid black;
+  background-color: #facd3d;
+  color: white;
+}
+
+.page5 {
+  position: relative;
+  margin-top: 15vh;
+  background-image: url(./banner-image/airpodsinearmikah.jpg);
+  height: 90vh;
+}
+
+.page5_item {
+  max-width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+}
+.page5_item h1 {
+  color: white;
+  font-size: 70px;
+}
+
+.page6 {
+  margin-top: 5rem;
+}
+
+.page6_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.page6_items .page6--item1 {
+  padding-right: 15px;
+  max-width: 560px;
+}
+.page6_items .page6--item1 .item1--text {
+  border: 1px solid #343138;
+  background-color: #343138;
+  color: white;
+  line-height: 50px;
+  padding: 30px 50px;
+}
+.page6_items .page6--item1 .item1--text h2 {
+  font: 30px;
+}
+.page6_items .page6--item1 .item1--text ul {
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+.page6_items .page6--item1 .item1--text a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  border: 1px solid;
+  padding: 6px 35px;
+  font-weight: bold;
+}
+.page6_items .page6--item1 .item1--text a:hover {
+  background-color: white;
+  color: black;
+}
+.page6_items .page6--item2 {
+  max-width: 560px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.page6_items .page6--item2 .item2--img1 {
+  width: 560px;
+}
+.page6_items .page6--item2 .item2--flex {
+  padding-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.page6_items .page6--item2 .item2--flex .flex--p {
+  padding-right: 15px;
+}
+.page6_items .page6--item2 .item2--flex .flex--p p {
+  font-size: 20px;
+}
+.page6_items .page6--item2 .item2--flex .item2--img2 {
+  width: 250px;
+}
+
+.footer {
+  background-color: #facd3d;
+  margin-top: 15vh;
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.footer_item {
+  max-width: 700px;
+  display: block;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+.footer_item h2 {
+  font-size: 50px;
+}
+.footer_item p {
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .page1_item {
+    top: 20vh;
+    width: 360px;
+  }
+
+  .page2 {
+    height: 55vh;
+  }
+
+  .page2_item {
+    padding-left: 5%;
+  }
+
+  .page3_item {
+    left: 0;
+    padding-right: 5%;
+  }
+
+  .page4_items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .page5_item {
+    padding: 0 30px;
+    padding-right: 14%;
+    width: 230px;
+    text-align: end;
+  }
+  .page5_item h1 {
+    font-size: 50px;
+  }
+
+  .page6_items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 20px;
+  }
+
+  .item2--flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .item2--img1 {
+    width: 428px !important;
+  }
+
+  .page6--item1 {
+    padding-bottom: 15px;
+  }
+
+  .flex--p {
+    padding: 50px;
+  }
+
+  .item2--img2 {
+    width: 428px !important;
+  }
+
+  .footer {
+    height: 60vh;
+  }
+
+  .footer_item {
+    padding: 0 50px;
+  }
+
+  .earpod {
+    padding-top: 40px;
+  }
+}
